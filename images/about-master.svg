@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef8ff"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3399ff"/>
+      <stop offset="1" stop-color="#1468d8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="400" fill="url(#bg2)"/>
+
+  <!-- Декор -->
+  <circle cx="60" cy="70" r="4" fill="#1b7ff2" opacity="0.4"/>
+  <circle cx="440" cy="90" r="5" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="80" cy="330" r="6" fill="#10b981" opacity="0.4"/>
+  <circle cx="420" cy="340" r="4" fill="#3399ff" opacity="0.5"/>
+
+  <!-- Тень -->
+  <ellipse cx="250" cy="370" rx="120" ry="12" fill="#101828" opacity="0.08"/>
+
+  <!-- Мастер: голова -->
+  <circle cx="250" cy="135" r="42" fill="#fde4c4"/>
+  <!-- Кепка -->
+  <path d="M208 122 a42 42 0 0 1 84 0 v6 h-84z" fill="#1b7ff2"/>
+  <path d="M208 128 h84 v4 a4 4 0 0 1 -4 4 h-76 a4 4 0 0 1 -4 -4z" fill="#1468d8"/>
+  <!-- Глаза, улыбка -->
+  <circle cx="236" cy="140" r="3.5" fill="#101828"/>
+  <circle cx="264" cy="140" r="3.5" fill="#101828"/>
+  <path d="M236 156 q14 10 28 0" stroke="#101828" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Тело / футболка мастера -->
+  <path d="M180 220 q10 -45 70 -50 q60 5 70 50 l10 120 h-160z" fill="url(#shirt)"/>
+  <!-- Ворот -->
+  <path d="M225 178 q25 15 50 0" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Бейдж на груди -->
+  <rect x="285" y="240" width="34" height="44" rx="4" fill="#ffffff" opacity="0.9"/>
+  <rect x="292" y="248" width="20" height="3" fill="#1b7ff2"/>
+  <rect x="292" y="256" width="20" height="2" fill="#b0bed4"/>
+  <rect x="292" y="262" width="14" height="2" fill="#b0bed4"/>
+
+  <!-- Гаечный ключ в руке -->
+  <g transform="translate(355, 215) rotate(20)" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M0 0 L0 70"/>
+    <circle cx="0" cy="0" r="14" fill="#ffffff"/>
+    <path d="M-6 -6 L6 6 M6 -6 L-6 6" stroke-width="4"/>
+  </g>
+
+  <!-- Стиральная машина сбоку -->
+  <g transform="translate(70, 240)">
+    <rect width="80" height="100" rx="10" fill="#ffffff" stroke="#1b7ff2" stroke-width="3"/>
+    <rect width="80" height="22" rx="10" fill="#1b7ff2"/>
+    <circle cx="15" cy="11" r="3" fill="#ffffff"/>
+    <circle cx="28" cy="11" r="3" fill="#ffffff" opacity="0.6"/>
+    <circle cx="40" cy="62" r="26" fill="#f6f8fb" stroke="#1468d8" stroke-width="2"/>
+    <circle cx="40" cy="62" r="18" fill="#8ed1ff"/>
+    <circle cx="40" cy="62" r="10" fill="#ffffff" opacity="0.5"/>
+  </g>
+
+  <!-- Искры/акценты -->
+  <path d="M400 130 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4z" fill="#fbbf24"/>
+  <path d="M100 130 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3z" fill="#3399ff" opacity="0.7"/>
+</svg>
